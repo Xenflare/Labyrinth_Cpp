@@ -61,6 +61,78 @@ build CMakeFiles/Labyrinth.dir/Enemies.cpp.obj: CXX_COMPILER__Labyrinth_unscanne
   OBJECT_DIR = CMakeFiles\Labyrinth.dir
   OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
 
+build CMakeFiles/Labyrinth.dir/Loot/Items.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/Items.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\Items.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot
+
+build CMakeFiles/Labyrinth.dir/AbilityClasses.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/AbilityClasses.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\AbilityClasses.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
+
+build CMakeFiles/Labyrinth.dir/Player.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Player.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Player.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
+
+build CMakeFiles/Labyrinth.dir/UseEvents.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/UseEvents.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\UseEvents.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
+
+build CMakeFiles/Labyrinth.dir/Enchantments.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Enchantments.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Enchantments.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
+
+build CMakeFiles/Labyrinth.dir/Loot/TableReader.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/TableReader.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\TableReader.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot
+
+build CMakeFiles/Labyrinth.dir/Loot/LootTables/Shop.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/LootTables/Shop.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\LootTables\Shop.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot\LootTables
+
+build CMakeFiles/Labyrinth.dir/Loot/LootTables/Skeleton_Enemy.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/LootTables/Skeleton_Enemy.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\LootTables\Skeleton_Enemy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot\LootTables
+
+build CMakeFiles/Labyrinth.dir/Loot/LootTables/SkeletonTheif_Enemy.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/LootTables/SkeletonTheif_Enemy.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\LootTables\SkeletonTheif_Enemy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot\LootTables
+
+build CMakeFiles/Labyrinth.dir/Loot/LootTables/Unwilling_Enemy.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/LootTables/Unwilling_Enemy.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\LootTables\Unwilling_Enemy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot\LootTables
+
+build CMakeFiles/Labyrinth.dir/Loot/LootTables/Wood_Chest.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Loot/LootTables/Wood_Chest.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Loot\LootTables\Wood_Chest.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Loot\LootTables
+
+build CMakeFiles/Labyrinth.dir/Random_Function.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/IO/CLionProjects/Labyrinth/Random$ Function.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Random_Function.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Labyrinth
@@ -69,7 +141,7 @@ build CMakeFiles/Labyrinth.dir/Enemies.cpp.obj: CXX_COMPILER__Labyrinth_unscanne
 #############################################
 # Link the executable Labyrinth.exe
 
-build Labyrinth.exe: CXX_EXECUTABLE_LINKER__Labyrinth_Debug CMakeFiles/Labyrinth.dir/main.cpp.obj CMakeFiles/Labyrinth.dir/Enemies.cpp.obj
+build Labyrinth.exe: CXX_EXECUTABLE_LINKER__Labyrinth_Debug CMakeFiles/Labyrinth.dir/main.cpp.obj CMakeFiles/Labyrinth.dir/Enemies.cpp.obj CMakeFiles/Labyrinth.dir/Loot/Items.cpp.obj CMakeFiles/Labyrinth.dir/AbilityClasses.cpp.obj CMakeFiles/Labyrinth.dir/Player.cpp.obj CMakeFiles/Labyrinth.dir/UseEvents.cpp.obj CMakeFiles/Labyrinth.dir/Enchantments.cpp.obj CMakeFiles/Labyrinth.dir/Loot/TableReader.cpp.obj CMakeFiles/Labyrinth.dir/Loot/LootTables/Shop.cpp.obj CMakeFiles/Labyrinth.dir/Loot/LootTables/Skeleton_Enemy.cpp.obj CMakeFiles/Labyrinth.dir/Loot/LootTables/SkeletonTheif_Enemy.cpp.obj CMakeFiles/Labyrinth.dir/Loot/LootTables/Unwilling_Enemy.cpp.obj CMakeFiles/Labyrinth.dir/Loot/LootTables/Wood_Chest.cpp.obj CMakeFiles/Labyrinth.dir/Random_Function.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Labyrinth.dir
