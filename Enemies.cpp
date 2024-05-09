@@ -9,9 +9,9 @@ class EnemyType {
         string Name;
         string Explanation;
 
-        EnemyType(string name, string description) {
-            Name = name;
-            Explanation = description;
+    EnemyType(string name, string description) {
+        Name = name;
+        Explanation = description;
         };
 };
 
@@ -28,7 +28,7 @@ class EnemyInstance {
         int BattleEnergy = 0;
         unordered_map<string, int> Inventory;
 
-        EnemyInstance( string name, string type, int maxHealth, any lootTable) {
+    EnemyInstance( string name, string type, int maxHealth, any lootTable) {
             Health = maxHealth;
             MaxHealth = maxHealth;
             Type = type;

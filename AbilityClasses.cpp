@@ -1,4 +1,4 @@
-#include "Random Function.cpp"
+#include "RandomNumber.h"
 #include "Enemies.cpp"
 #include "Player.cpp"
 
@@ -19,9 +19,19 @@ class SwingAttack {
             RequiredEnergy = energyUse;
         }
 
-         void Trigger(string target) {
-            int damageToDeal = Random(DMG[0],DMG[1]);
-            cout << damageToDeal;
+         void Trigger(EnemyInstance& target, SwingAttack&) {
+            int damageToDeal = RandomNumber(DMG[0],DMG[1]);
+
+            if (typeid(target) == typeid(EnemyInstance)) {
+                target.Health -= damageToDeal;
+
+                if (RandomNumber(1,100) <= BleedChance) {
+                    target.BleedDuration += BleedDuration;
+
+                } else if (typeid(target) == Player) {
+                    cout << "Next";
+                }
+            }
 
         }
 

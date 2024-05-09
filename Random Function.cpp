@@ -1,17 +1,15 @@
+#include "RandomNumber.h"
 #include <iostream>
 #include <random>
+#include <ctime>
+#include <cstdlib>
 
-int Random(int x, int y) {
-    // Create a random number engine
-    std::random_device rd;
-    std::mt19937 gen(rd());
+int RandomNumber(int x, int y) {
 
-    // Create a distribution (e.g., uniform distribution between 0 and 99)
-    std::uniform_int_distribution<> dis(x, y);
+    srand(static_cast<unsigned int>(time(0)));
 
-    // Generate a random number
-    int randomNumber = dis(gen);
+    // Generate a random number within the desired range
+    int randomNumber = (rand() % (x - y + 1)) + y;
 
     return randomNumber;
-
 }

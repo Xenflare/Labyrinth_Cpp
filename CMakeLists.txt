@@ -16,4 +16,5 @@ add_executable(Labyrinth main.cpp
         Loot/LootTables/SkeletonTheif_Enemy.cpp
         Loot/LootTables/Unwilling_Enemy.cpp
         Loot/LootTables/Wood_Chest.cpp
-        "Random Function.cpp")
+        "Random Function.cpp"
+        RandomNumber.h)
