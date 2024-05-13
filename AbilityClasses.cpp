@@ -28,10 +28,10 @@ class SwingAttack {
                 if (RandomNumber(1,100) <= BleedChance) {
                     target.BleedDuration += BleedDuration;
 
-                } else if (typeid(target) == Player) {
-                    cout << "Next";
                 }
-            }
+
+            } else if (typeid(target) == typeid(Player)) {
+                target.HP
 
         }
 
