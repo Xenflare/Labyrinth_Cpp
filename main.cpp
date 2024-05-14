@@ -5,6 +5,26 @@
 #include "AbilityClasses.cpp"
 using namespace std;
 
+class StarterCharacter {
+
+	public: // Things that are commented out won't work without the Item class and will be changed after I add it
+
+		string Name;
+		string Description;
+		// list<list<auto>> DefaultItems;
+
+		StarterCharacter(string name, string description, list startingItemPairs) {
+
+			Name = name;
+			Description = description;
+			// DefaultItems = startingItemPairs;
+
+			registeredCharacters.push_back(this);
+
+		}
+	
+};
+
 string coloredString(string txt, string color, int format) { // This uses the ANSI escape code 8bit colors
 
 	unordered_map<string, int> colorPairs;
@@ -29,7 +49,7 @@ string coloredString(string txt, string color, int format) { // This uses the AN
 
 int main() {
 
-    list<string> registeredCharacters;
+    list<auto> registeredCharacters;
     unordered_map<string,int> inventory;
     unordered_map<string,unordered_map<string,any>> enemyPresets;
     EnemyType skeleton("Skeleton", "Creatures of bone, held together by the magic of the labyrinth");
