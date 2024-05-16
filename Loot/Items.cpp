@@ -48,7 +48,7 @@ class Item {
 
 			if (IsConsumable) {
 
-				Effects = consumableValues
+				Effects = consumableValues;
 
 			}
 
