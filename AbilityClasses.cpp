@@ -19,19 +19,24 @@ class SwingAttack {
             RequiredEnergy = energyUse;
         }
 
-         void Trigger(EnemyInstance& target, SwingAttack&) {
+        void Trigger(EnemyInstance& target, SwingAttack&) {
             int damageToDeal = RandomNumber(DMG[0],DMG[1]);
 
             if (typeid(target) == typeid(EnemyInstance)) {
+
                 target.Health -= damageToDeal;
 
-                if (RandomNumber(1,100) <= BleedChance) {
-                    target.BleedDuration += BleedDuration;
-
-                }
-
             } else if (typeid(target) == typeid(Player)) {
-                target.HP
+
+                target.HP -= damageToDeal;
+
+            }
+
+            if (RandomNumber(1,100) <= BleedChance) {
+                    
+                target.BleedDuration += BleedDuration;
+
+            }
 
         }
 
