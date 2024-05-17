@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <any>
 #include "AbilityClasses.cpp"
+#include "Items.cpp"
 using namespace std;
 
 struct itempair {
@@ -14,7 +15,7 @@ struct itempair {
 
 class StarterCharacter {
 
-	public: // Things that are commented out won't work without the Item class and will be changed after I add it
+	public:
 
 		string Name;
 		string Description;
@@ -31,6 +32,16 @@ class StarterCharacter {
 		}
 	
 };
+
+itempair makeItemPair(Item pItem, int pAmount) {
+
+	itempair ItemPair;
+	ItemPair.item = pItem;
+	ItemPair.amount = pAmount;
+	
+	return ItemPair;
+
+}
 
 string coloredString(string txt, string color, int format) { // This uses the ANSI escape code 8bit colors
 
@@ -56,8 +67,8 @@ string coloredString(string txt, string color, int format) { // This uses the AN
 
 int main() {
 
-    list<auto> registeredCharacters;
-    unordered_map<string,int> inventory;
+    list<StarterCharacter> registeredCharacters;
+    unordered_map<string,StoredItem> inventory;
     unordered_map<string,unordered_map<string,any>> enemyPresets;
     EnemyType skeleton("Skeleton", "Creatures of bone, held together by the magic of the labyrinth");
 
