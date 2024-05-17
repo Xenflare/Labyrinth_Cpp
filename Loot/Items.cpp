@@ -11,7 +11,7 @@ struct weaponstats {
 struct consumablestats {
 
 	bool isConsumable;
-	Heal effects[];
+	Effect effects[];
 
 }
 

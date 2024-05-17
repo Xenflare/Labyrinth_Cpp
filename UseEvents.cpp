@@ -1,15 +1,19 @@
 #include "Enemies.cpp"
 #include "Player.cpp"
 
-class Heal {
+class Effect {
 
     public:
 
         int Healing;
+        int Burning;
+        bool stopsBleeding;
 
-        Heal(int healing) {
+        Effect(int healing, int burning, bool coagulates) {
 
             Healing = healing;
+            Burning = burning;
+            stopsBleeding = coagulates;
 
         }
 
@@ -24,47 +28,22 @@ class Heal {
 
                 }
 
-            }
+            } else if (typeid(target) == typeid(EnemyInstance)) {
 
-        }  
+                target.Health += Healing;
+                if (target.Health > target.MaxHealth) {
 
-};
+                    target.Health = target.MaxHealth;
 
-class Burn {
-
-    public:
-
-        int Burning;
-
-        Burn(int burning) {
-
-            Burning = burning;
-
-        }
-
-        void Trigger(EnemyInstance& target) {
-
-            if (typeid(target) == typeid(Player) || typeid(target) == typeid(EnemyInstance)) {
-
-                target.BurnDuration += Burning;
+                }
 
             }
+            if (coagulates) {
 
-        }  
-
-};
-
-class Coagulate {
-
-    public:
-
-        void Trigger(Player& target) {
-
-            if (typeid(target) == typeid(Player)) {
-
-                target.BleedDuration = 0;
+                target.BleedDuration = 0
 
             }
+            target.BurnDuration += Burning;
 
         }  
 
