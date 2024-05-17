@@ -4,7 +4,7 @@
 struct weaponstats {
 
 	bool isWeapon;
-	SwingAttack attacks[];
+	Attack attacks[];
 
 }
 
