@@ -5,19 +5,26 @@
 #include "AbilityClasses.cpp"
 using namespace std;
 
+struct itempair {
+
+	Item item;
+	int amount;
+
+}
+
 class StarterCharacter {
 
 	public: // Things that are commented out won't work without the Item class and will be changed after I add it
 
 		string Name;
 		string Description;
-		// list<list<auto>> DefaultItems;
+		itempair DefaultItems[];
 
-		StarterCharacter(string name, string description, list startingItemPairs) {
+		StarterCharacter(string name, string description, itempair startingItemPairs[]) {
 
 			Name = name;
 			Description = description;
-			// DefaultItems = startingItemPairs;
+			DefaultItems = startingItemPairs;
 
 			registeredCharacters.push_back(this);
 

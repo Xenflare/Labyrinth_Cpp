@@ -56,22 +56,6 @@ class Item {
 
 }
 
-class StatItem {
-
-	public:
-
-		string Name;
-		int MaxAmount = -1;
-		string Category = "stats";
-
-		StatItem(string name) {
-
-			Name = name;
-
-		}
-
-}
-
 class StoredItem {
 
 	public:
