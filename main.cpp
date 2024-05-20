@@ -1,6 +1,7 @@
 #include <iostream>
 #include <list>
 #include <unordered_map>
+#include <map>
 #include <any>
 #include "AbilityClasses.cpp"
 #include "Items.cpp"
@@ -42,6 +43,57 @@ string input(string prompt) {
 
 	return to_string(returnValue);
 
+}
+
+string lower(string convert) {
+
+	string finalString;
+	map<char, int> uppercase;
+	uppercase['A'] = 1;
+	uppercase['B'] = 2;
+	uppercase['C'] = 3;
+	uppercase['D'] = 4;
+	uppercase['E'] = 5;
+	uppercase['F'] = 6;
+	uppercase['G'] = 7;
+	uppercase['H'] = 8;
+	uppercase['I'] = 9;
+	uppercase['J'] = 10;
+	uppercase['K'] = 11;
+	uppercase['L'] = 12;
+	uppercase['M'] = 13;
+	uppercase['N'] = 14;
+	uppercase['O'] = 15;
+	uppercase['P'] = 16;
+	uppercase['Q'] = 17;
+	uppercase['R'] = 18;
+	uppercase['S'] = 19;
+	uppercase['T'] = 20;
+	uppercase['U'] = 21;
+	uppercase['V'] = 22;
+	uppercase['W'] = 23;
+	uppercase['X'] = 24;
+	uppercase['Y'] = 25;
+	uppercase['Z'] = 26;
+
+	char lowercase[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}; 
+
+	for (int i = 0; i < convert.length(); i++) {
+
+		if (uppercase.find(convert[i]) != uppercase.end()) {
+
+			finalString += lowercase[uppercase[convert[i]] - 1];
+			
+		} else {
+
+			finalString += convert[i];
+			
+		}
+		
+	}
+
+	return finalString;
+	
 }
 
 itempair makeItemPair(Item pItem, int pAmount) {
