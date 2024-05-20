@@ -6,14 +6,14 @@ struct weaponstats {
 	bool isWeapon;
 	Attack attacks[];
 
-}
+};
 
 struct consumablestats {
 
 	bool isConsumable;
 	Effect effects[];
 
-}
+};
 
 class Item {
 
@@ -54,7 +54,7 @@ class Item {
 
         }
 
-}
+};
 
 class StoredItem {
 
@@ -70,4 +70,4 @@ class StoredItem {
 
 		}
 
-}
+};
