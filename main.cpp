@@ -11,7 +11,7 @@ struct itempair {
 	Item item;
 	int amount;
 
-}
+};
 
 class StarterCharacter {
 
@@ -36,7 +36,7 @@ class StarterCharacter {
 string input(string prompt) {
 
 	string returnValue;
-	
+
 	cout << prompt;
 	cin >> returnValue;
 
