@@ -40,7 +40,7 @@ string input(string prompt) {
 	cout << prompt;
 	cin >> returnValue;
 
-	return returnValue;
+	return to_string(returnValue);
 
 }
 
