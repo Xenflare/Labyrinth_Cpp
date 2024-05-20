@@ -33,6 +33,17 @@ class StarterCharacter {
 	
 };
 
+string input(string prompt) {
+
+	string returnValue;
+	
+	cout << prompt;
+	cin >> returnValue;
+
+	return returnValue;
+
+}
+
 itempair makeItemPair(Item pItem, int pAmount) {
 
 	itempair ItemPair;
