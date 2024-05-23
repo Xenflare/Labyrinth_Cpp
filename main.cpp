@@ -5,6 +5,7 @@
 #include <any>
 #include "AbilityClasses.cpp"
 #include "Items.cpp"
+#include "LootTableAssets.cpp"
 using namespace std;
 
 struct itempair {
@@ -33,6 +34,22 @@ class StarterCharacter {
 		}
 	
 };
+
+class Container {
+
+	public:
+
+		string Name;
+		loottable Loot;
+
+		Container(string name, loottable linkedLootTable) {
+
+			Name = name;
+			Loot = linkedLootTable;
+
+		}
+
+}
 
 string input(string prompt) {
 
