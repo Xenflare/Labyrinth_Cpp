@@ -3,7 +3,7 @@
 struct lootpair {
 
     Item item;
-    int weight;
+    float weight;
     int amount[2];
 
 };
